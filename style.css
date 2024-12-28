@@ -1,172 +1,32 @@
-* {
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-}
-#top-pict{
-    width: 500px;
-    margin:70px 35px 0px 0px ;
-    border-radius: 40px;
-}
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    transition: background-color 0.3s, color 0.3s;
 }
-
-.wrapper {
-    width: 1100px;
-    margin: auto;
-    position: relative;
-}
-
-.logo a {
-    font-size: 50px;
-    font-weight: 800;
-    float: left;
-    font-family: rier;
-    color: #364f6b;}
-
-.content  {
-    font-size: 30px;
-    font-weight: 800;
-    font-family: rier;
-    color: #364f6b;
-}
-.sub-content{
-    font-size: 20px;
-    font-weight: 200;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-}
-.sub-content-atas{
-    font-size: 20px;
-    font-weight: 200;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    margin: 100px 0px 0px 0px;
-}
-
-.menu {
-    float: right;
-}
-
-nav {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 80px;
-    position: sticky;
-    position: -webkit-sticky; 
-    top: 0;
-    background: #FFFFFF;
-    z-index: 1;
-    border-bottom:1px solid #364f6b;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    color: black;
+.subtitle {
+    font-size: 28px;
     font-weight: bold;
-    text-align: center;
-    padding: 0px 16px 0px 16px;
-    text-decoration: none;
+}
+pre.sub-content {
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+footer {
+    margin-top: 30px;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
 }
-
-section {
-    margin: auto;
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.kolom {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.kolom .deskripsi {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #364f6b;
-}
-
-
-h3 {
-    font-family: 'comic sans ms';
-    font-weight: 700;
-    font-size: 32px;
-    margin-bottom: 40px;
-    color: #364f6b;
-    width: 100%;
-    line-height: 50px;
-}
-
-.subtitle{
-    font-size: 30px;
-}
-
-#copyright {
-    text-align: center;
-    width: 100%;
-    padding: 50px 0px 50px 0px;
-    margin-top: 50px;
-}
-
-@media screen and (max-width: 991.98px) {
-    .wrapper {
-        width: 90%;
-    }
-
-    .logo a {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    nav .menu {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav .menu ul {
-        text-align: center;
-        margin: auto;
-        line-height: 60px;
-    }
-
-    nav .menu ul li {
-        display: inline-block;
-        float: none;
-    }
-
-    section {
-        display: block;
-    }
-
-    section img {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    .kartu-tutor {
-        width: 50%;
-    }
-
-    .kartu-partner {
-        width: 50%;
-    }
+.dark-mode pre.sub-content {
+    background-color: #1e1e1e;
+    color: #cfcfcf;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
